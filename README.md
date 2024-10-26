@@ -1,6 +1,6 @@
+<h3 align="center">Frontend Developer Interview Questions (Ena Ema Technology Limited)</h3>
 
-
-## Frontend Developer Interview Questions (Ena Ema Technology Limited)
+---
 
 ### Question 1: Merge Product Quantities
 **Problem Statement:**  
