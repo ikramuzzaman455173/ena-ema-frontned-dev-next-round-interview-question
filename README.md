@@ -36,25 +36,28 @@ How would you modify the function if both `productId` and `purchaseId` were used
 
 ---
 
-### Question 2: Inventory Management
+### Question 3: Library Book Search
+
 **Problem Statement:**  
-You are building an inventory management system for a small retail store. You have an array of product objects, each with a name and quantity. Write a function called `getLowStockProducts` that takes this array and a threshold quantity as parameters. The function should return an array of product names that are below the given threshold quantity.
+You are developing a library management system where users can search for books. Write a function called `searchBooks` that accepts an array of book objects and a search term. The function should return an array of book titles that include the search term (case-insensitive).
 
-#### Example Input
+**Example Input:**
 ```javascript
-const products = [
-  { name: 'Apples', quantity: 5 },
-  { name: 'Bananas', quantity: 2 },
-  { name: 'Cherries', quantity: 15 },
-  { name: 'Dates', quantity: 1 }
+const books = [
+  { title: 'The Great Gatsby', author: 'F. Scott Fitzgerald' },
+  { title: 'To Kill a Mockingbird', author: 'Harper Lee' },
+  { title: '1984', author: 'George Orwell' },
+  { title: 'The Catcher in the Rye', author: 'J.D. Salinger' }
 ];
-const threshold = 3;
+const searchTerm = 'the';
 ```
 
-#### Expected Output
+**Expected Output:**
 ```javascript
-['Bananas', 'Dates']
+['The Great Gatsby', 'The Catcher in the Rye']
 ```
+
+
 
 ---
 
