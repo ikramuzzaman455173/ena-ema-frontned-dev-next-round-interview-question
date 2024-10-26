@@ -36,7 +36,7 @@ How would you modify the function if both `productId` and `purchaseId` were used
 
 ---
 
-### Question 3: Library Book Search
+### Question 2: Library Book Search
 
 **Problem Statement:**  
 You are developing a library management system where users can search for books. Write a function called `searchBooks` that accepts an array of book objects and a search term. The function should return an array of book titles that include the search term (case-insensitive).
