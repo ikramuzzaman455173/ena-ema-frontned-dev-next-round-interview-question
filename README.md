@@ -1,7 +1,5 @@
 <h3 align="center">Frontend Developer Interview Questions (Ena Ema Technology Limited)</h3>
 
----
-
 ### Question 1: Merge Product Quantities
 **Problem Statement:**  
 You are developing a feature for an e-commerce application that tracks product transactions. Write a JavaScript function that merges an array of product transactions by `productId`, summing the `quantity`, `returnedQuantity`, and `totalQuantity` for each unique `productId`.
@@ -36,28 +34,25 @@ How would you modify the function if both `productId` and `purchaseId` were used
 
 ---
 
-### Question 2: Library Book Search
-
+### Question 2: Inventory Management
 **Problem Statement:**  
-You are developing a library management system where users can search for books. Write a function called `searchBooks` that accepts an array of book objects and a search term. The function should return an array of book titles that include the search term (case-insensitive).
+You are building an inventory management system for a small retail store. You have an array of product objects, each with a name and quantity. Write a function called `getLowStockProducts` that takes this array and a threshold quantity as parameters. The function should return an array of product names that are below the given threshold quantity.
 
-**Example Input:**
+#### Example Input
 ```javascript
-const books = [
-  { title: 'The Great Gatsby', author: 'F. Scott Fitzgerald' },
-  { title: 'To Kill a Mockingbird', author: 'Harper Lee' },
-  { title: '1984', author: 'George Orwell' },
-  { title: 'The Catcher in the Rye', author: 'J.D. Salinger' }
+const products = [
+  { name: 'Apples', quantity: 5 },
+  { name: 'Bananas', quantity: 2 },
+  { name: 'Cherries', quantity: 15 },
+  { name: 'Dates', quantity: 1 }
 ];
-const searchTerm = 'the';
+const threshold = 3;
 ```
 
-**Expected Output:**
+#### Expected Output
 ```javascript
-['The Great Gatsby', 'The Catcher in the Rye']
+['Bananas', 'Dates']
 ```
-
-
 
 ---
 
